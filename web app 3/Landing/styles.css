@@ -1,0 +1,36 @@
+html,
+body {
+    width: 100%;
+    height: auto;
+    overflow: none;
+    background: url("ApplayoutBG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY();
+}
+.header {
+    text-align: center;
+}
+.header #logo {
+    margin-top: 30%;
+    margin-bottom: 50px;
+    
+    background: n
+}
+.buttons {
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+.buttons button {
+    width: 40%;
+    line-height: 30px;
+    margin-top: 80px;
+    font-size: 20px;
+}
+.buttons #login {
+    margin-right: 20px;
+}
+#skip:hover #login {
+    background: none;
+}
