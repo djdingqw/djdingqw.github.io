@@ -31,7 +31,7 @@ body {
     margin: 0 auto;
     width: 200px;
     position: relative;
-    top: 15vh;
+    margin-top: 12vh;
     padding-bottom: 200px;
     background: url("images/TM%20Logo%20New.png") no-repeat center;
     background-size: 150px;
@@ -43,12 +43,11 @@ body {
 .container .row .col-sm-6 .randbtn {
     text-align: center;
     position: relative;
-    top: 20vh;
+    margin-top: 5vh;
 }
 .randbtn button {
     background-color: #F98A14;
     font-size: 25px;
     color: white;
     box-shadow: 0 10px 20px 1px rgba(0,0,0,0.3);
-
 }

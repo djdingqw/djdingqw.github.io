@@ -7,7 +7,13 @@ var myArray =
         "images/Subway_Logo_OG.png", 
         "images/Temptations Logo.jpeg", 
         "images/zhia.png",
-        "images/arisan.jpg"
+        "images/arisan.jpg",
+        "images/lifestyle.jpeg",
+        "images/matsuba.jpg",
+        "images/jc.png",
+        "images/starteh.jpeg",
+        "images/snowy.jpeg",
+        "images/selarang.jpeg"
     ];
 
 var rand = myArray[Math.floor(Math.random() * myArray.length)];

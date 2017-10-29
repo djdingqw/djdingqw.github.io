@@ -1,10 +1,7 @@
 html,
 body {
     width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    overflow-y: hidden;
+    height: 100%;
 }
 .header {
     background-color: #fff;
@@ -18,9 +15,8 @@ body {
 .row {
     padding: 10px;
     background-color: #fff;
-    line-height: 18vh;
     height: 100%;
-    padding-top: 30px;
+    padding-top: 5%
 }
 .col-sm-6 {
     font-family: 'Montserrat', sans-serif;
@@ -31,8 +27,8 @@ body {
 .col-sm-6 button {
     width: 100%;
     padding: 0 30px;
-    line-height: 16vh;
-    margin-bottom: 20px;
+    line-height: 18vh;
+    margin-bottom: 5%;
     border: none;
     border-bottom: 1px solid rgba(0,0,0,0.05);
     color: #FF173F;
