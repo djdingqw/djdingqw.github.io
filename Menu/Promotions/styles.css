@@ -1,0 +1,28 @@
+.header {
+/*    background-color: #5CD2D2;*/
+    background: url("Promotions.png");
+    background-size: cover;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    
+}
+.header i {
+    font-size: 30px;
+    margin: 20px;
+    color: white;
+}
+.header h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 150px;
+    padding-left: 20px;
+    margin-top: -20px;
+    font-size: 25px;
+}
+.row {
+    text-align: center;
+    margin-top: 15vh;
+}

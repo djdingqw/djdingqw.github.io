@@ -1,0 +1,344 @@
+html,
+body {
+    width: 100%;
+    height: auto;
+    background: url("ApplayoutBG.png");
+    background-size: cover;
+}
+.col-sm-12 {
+    text-align: center;
+    padding: 100px 80px;
+    padding-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+.col-sm-12 small {
+    color: #BEE188;
+}
+.col-sm-6 {
+    margin: 0 20px;
+    padding: 30px 50px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 5px rgba(0,0,0,0.3);
+}
+.user {
+    box-shadow: none;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 22vh;
+    left: 22vh;
+    z-index: 1000;
+    text-align: center;
+    border-radius: 100px;
+    
+    box-shadow: 0 5px 0 0 rgb(0,0,0)
+}
+.user img {
+    margin-top: 20px;
+}
+.form-control {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0;
+    width: 100%;
+    position: relative;
+    padding-left: 30px;
+}
+.form-group {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.form-group label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.buttons {
+    
+}
+#signin {
+    background-color: #8BD136;
+    position: relative;
+    width: 100%;
+    border-radius: px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    box-shadow: 0px 15px 10px -10px rgba(0,0,0,0.2);
+    border: none;
+    padding: 10px;
+    margin-top: 5vh
+}
+#guest {
+    background-color: #334F8E;
+    position: relative;
+    width: 100%;
+    border-radius: 100px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    box-shadow: 1px 2px 5px 2px rgba(0,0,0,0.3);
+    border: none;
+    padding: 5px;
+    margin: 20px 0;
+}
+#user {
+    position: absolute;
+    top: 100px;
+    padding-left: 2px;
+}
+#lock {
+    padding-left: 2px;
+    position: absolute;
+    top: 56%;
+}
+.modal {
+    margin-top: 40%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 20px;
+}
+.modal .btn {
+    width: 100%;
+    border: none;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+#thanks {
+  background: white;
+    padding: 0px;
+ text-align: center;
+  width: 100%;
+  margin: 5px auto 25px auto;
+  border-radius: 3px;
+  color: #666;
+}
+
+#thanks #thank-you-message {
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  color: black;
+}
+
+.circle {
+  fill: none;
+  stroke: #81d135;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.circle-dash {
+  fill: none;
+  stroke: #81d135;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.circle-behind {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.circle-ahead {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.check-dash {
+  fill: none;
+  stroke: #81d135;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.check-behind {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.check-ahead {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.check {
+  fill: none;
+  stroke: #81d135;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.circle {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 0;
+  -webkit-animation: circle 1.2s linear forwards;
+  -o-webkit-animation: circle 1.2s linear forwards;
+  -moz-webkit-animation: circle 1.2s linear forwards;
+  animation: circle 1.2s linear forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+          animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+@-webkit-keyframes circle {
+  from {
+    stroke-dashoffset: 300;
+  }
+  to {
+    stroke-dashoffset: 000;
+  }
+}
+.circle-dash {
+  stroke-dasharray: 5;
+  stroke-dashoffset: 0;
+  -webkit-animation: circle-dash 1.2s linear forwards;
+  -o-webkit-animation: circle-dash 1.2s linear forwards;
+  -moz-webkit-animation: circle-dash 1.2s linear forwards;
+  animation: circle-dash 1.2s linear forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+          animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+@-webkit-keyframes circle-dash {
+  from {
+    stroke-dashoffset: 305;
+  }
+  to {
+    stroke-dashoffset: 000;
+  }
+}
+.circle-behind {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 0;
+  -webkit-animation: circle-behind 1.2s linear forwards;
+  -o-webkit-animation: circle-behind 1.2s linear forwards;
+  -moz-webkit-animation: circle-behind 1.2s linear forwards;
+  animation: circle-behind 1.2s linear forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+          animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+@-webkit-keyframes circle-behind {
+  from {
+    stroke-dashoffset: 290;
+  }
+  to {
+    stroke-dashoffset: -15;
+  }
+}
+.circle-ahead {
+  stroke-dasharray: 315;
+  stroke-dashoffset: 0;
+  -webkit-animation: circle-ahead 1.2s linear forwards;
+  -o-webkit-animation: circle-ahead 1.2s linear forwards;
+  -moz-webkit-animation: circle-ahead 1.2s linear forwards;
+  animation: circle-ahead 1.2s linear forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+          animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+@-webkit-keyframes circle-ahead {
+  from {
+    stroke-dashoffset: -26;
+  }
+  to {
+    stroke-dashoffset: -330;
+  }
+}
+.check {
+  stroke-dasharray: 65;
+  stroke-dashoffset: 0;
+  -webkit-animation: check 1.6s linear forwards;
+  -o-webkit-animation: check 1.6s linear forwards;
+  -moz-webkit-animation: check 1.6s linear forwards;
+  animation: check 1.6s linear forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.6, 0, 0.2, 1);
+          animation-timing-function: cubic-bezier(0.6, 0, 0.2, 1);
+}
+
+@-webkit-keyframes check {
+  from {
+    stroke-dashoffset: 65;
+  }
+  to {
+    stroke-dashoffset: 000;
+  }
+}
+.check-dash {
+  stroke-dasharray: 5;
+  stroke-dashoffset: 0;
+  -webkit-animation: check-dash 1.6s linear forwards;
+  -o-webkit-animation: check-dash 1.6s linear forwards;
+  -moz-webkit-animation: check-dash 1.6s linear forwards;
+  animation: check-dash 1.6s linear forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+          animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+@-webkit-keyframes check-dash {
+  from {
+    stroke-dashoffset: 115;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.check-behind {
+  stroke-dasharray: 115;
+  stroke-dashoffset: 0;
+  -webkit-animation: check-dash 1.6s linear forwards;
+  -o-webkit-animation: check-dash 1.6s linear forwards;
+  -moz-webkit-animation: check-dash 1.6s linear forwards;
+  animation: check-dash 1.6s linear forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+          animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.check-ahead {
+  stroke-dasharray: 115;
+  stroke-dashoffset: 0;
+  -webkit-animation: check-ahead 1.6s linear forwards;
+  -o-webkit-animation: check-ahead 1.6s linear forwards;
+  -moz-webkit-animation: check-ahead 1.6s linear forwards;
+  animation: check-ahead 1.6s linear forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+          animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+@-webkit-keyframes check-ahead {
+  from {
+    stroke-dashoffset: -15;
+  }
+  to {
+    stroke-dashoffset: -130;
+  }
+}

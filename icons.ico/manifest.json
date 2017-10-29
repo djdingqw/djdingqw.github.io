@@ -1,12 +1,12 @@
 {
-  "name": "Web Community Leaders UK IE",
-    "short_name": "Web Leaders",
-    "description": "Web Community Leaders landing page",
+  "name": "Taylor's Makan",
+    "short_name": "TM",
+    "description": "Taylor's Makan",
     "lang": "en-",
     "start_url": "/",
     "display": "standalone",
-    "theme_color": "#E6E6FA",
-    "background_color": "#E6E6FA",
+    "theme_color": "#fff",
+    "background_color": "#fff",
 
   "icons": [
   {
