@@ -107,7 +107,17 @@ body {
     margin-top: 20px;
     margin-bottom: -20px;
 }
-
+.modal h2 {
+    margin-bottom: 30px;
+}
+.modal a {
+    background: #D75453;
+    padding: 8px 50px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 300;
+}
 #thanks {
   background: white;
     padding: 0px;
